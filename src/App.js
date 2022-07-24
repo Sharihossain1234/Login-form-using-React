@@ -1,25 +1,44 @@
-import logo from './logo.svg';
 import './App.css';
 
-function App() {
+function LoginUi() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="main">
+     <div className="sub-main">
+       <div>
+       <div className="imgs">
+           <div className="container-image">
+           
+
+           </div>
+
+
+         </div>
+         <div>
+           <h1>Login Page</h1>
+           <div>
+           
+             <input type="text" placeholder="Enter user name" className="name"/>
+           </div>
+           <div className="second-input">
+         
+             <input type="password" placeholder="Enter Password" className="name"/>
+           </div>
+          <div className="login-button">
+          <button>Login</button>
+          </div>
+           
+            <p className="link">
+              <a href="#">Forgot password ?</a> Or <a href="#">Sign Up</a>
+            </p>
+           
+ 
+         </div>
+       </div>
+       
+
+     </div>
     </div>
   );
 }
 
-export default App;
+export default LoginUi;
